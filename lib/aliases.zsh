@@ -2,6 +2,10 @@
 alias pu='pushd'
 alias po='popd'
 
+# auto pushd/popd
+alias cd='pushd'
+alias p='popd'
+
 # Basic directory operations
 alias ...='cd ../..'
 alias -- -='cd -'
@@ -21,4 +25,3 @@ alias ll='ls -l'
 alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
-
